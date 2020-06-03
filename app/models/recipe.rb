@@ -1,4 +1,4 @@
-class Recipe < ApplicationRecord
+class Recipe 
   include HTTParty
         
   base_uri 'http://www.recipepuppy.com/api'
